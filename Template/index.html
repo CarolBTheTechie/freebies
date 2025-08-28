@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!-- OPTIMIZED FOR SEARCH ENGINES-->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Name of Site </title>
+<meta name="description" content="A brief description">
+<meta name="author" content="Your Site or Business Name">
+
+
+<!-- Open Graph Protocol  uncomment for social media-->
+<!--
+<meta property= “og:title" content="Name of site">
+<meta property= “og:type" content="website">
+<meta property= “og:url" content="https://www.mysite.com">
+<meta property= “og:description" content="A brief description">
+<meta property= “og:image" content="image.png">
+-->
+
+<!-- ICONS -->
+<link rel="icon" href="/favicon.ico">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/applie-touchh-icon.png">
+
+
+<!-- STYLE SHEET  should always be last part of head element -->
+<link rel="stylesheet"  href="css/styles.css">
+</head>
+
+<body>
+    <header>
+	    <!-- Typically Website name or logo-->
+			<img src="images/envelope.png" width="200px">
+            
+    </header>
+	<nav>
+        <!-- use unordered list for menu items for the navigation -->
+        <ul>
+            <li><a href="">Item 1</a></li>
+            <li><a href="">Item 2</a></li>
+            <li><a href="">Item 3</a></li>
+            <li><a href="">Item 4</a></li>
+        </ul>
+    </nav>
+    <main>
+	    <!-- main content-->
+	    
+        <!-- can use SECTION for each ROW in the main part of the body 
+             each row, or section is its own element so flex can be used
+             
+            ARTICLE elements represent columns in the section (can use div, but semantically
+            it is better for SEO optimization and accessibility software to use article for columns)
+        -->
+        <section>
+            <article>
+                <h1>Template Rules</h1>
+                <p>
+                    Make sure elements are used that is semantically better for SEO and accessibility
+                </p>
+            </article>
+        </section>
+         <section>
+
+            <article>
+                <h2>Step 1: SEMANTICS with template</h2>
+                <p>
+                    Make sure elements are used that is semantically better for SEO and accessibility
+                </p>
+            </article>
+
+            <article>
+                <h2>Step 2:  Apply Styling with styles.css </h2>
+                <p>Rules can already be in place in Template for the body and header elements.
+                    Choose a unit of measurement to use (rem v em, etc).  Remember that rem is relative to body; em is relative to parent and diminishes relatively
+                    further down the child levels
+                </p>
+            </article>
+
+            <article>
+                <h2>Step 3:  Design Processes to Consider</h2>
+                <p>There must be a good user interface (UI) AND a good user experience (UX). UX - how user interacts with the website as a whole.
+                    Consider 1) presentation of info, 2) flow between sections, and ease of use
+                </p>
+                <p>User experience:  driven by needs and viewport of the user
+                    Methods to plan user experience: Stakeholder interview, user research, ux audits & scenario mapping, client persona
+                </p>
+            </article>
+           
+
+         </section>
+         <section>           
+            <article>
+                <h2>Intentional Engagement</h2>
+                <ul>
+                    <li>Keeps user interacting with your website.  Encourage purchases, or interact with ads.</li>
+                    <li>User experience should be driven by how customer will engage with the website.</li>
+                    <li>List what customers will be looking for when they visit the website; make it as easy as possible to get that info</li>
+                </ul>
+            </article></section>
+    </main>
+    <footer>
+	    <!-- Copyright notices and other footer content; 
+         not important for seo and accessibility so div can be used
+         2 columns (1 row so not 2-dimensional) flex can be used
+              
+        -->
+	    <div><img src="images/envelope.png" width="30px"></div>
+        <div>Copyright</div>
+    </footer>
+    <!-- Include Javascript files here-->
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
